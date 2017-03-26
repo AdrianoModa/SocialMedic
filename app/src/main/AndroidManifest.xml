@@ -15,7 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TelaMenu"></activity>
+        <activity android:name=".TelaMenu" />
+        <activity android:name=".TelaMedicos" />
+        <activity android:name=".TelaFavoritos" />
+        <activity android:name=".TelaHospitais" />
+        <activity android:name=".TelaAvaliacao"></activity>
     </application>
 
 </manifest>
