@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@android:drawable/ic_menu_add"
-        android:id="@+id/imageButton4"
+        android:id="@+id/imageBtnHospital"
         android:layout_below="@+id/imageButton3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -44,6 +44,32 @@
         android:layout_toStartOf="@+id/btnHopitais"
         android:layout_below="@+id/btnMedicos"
         android:layout_alignBottom="@+id/btnFavoritos"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageBtnMedico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/btnMedicos"
+        android:layout_toLeftOf="@+id/btnMedicos"
+        android:layout_toStartOf="@+id/btnMedicos"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageBtnFavorito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnFavoritos"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnMedicos"
+        android:layout_toLeftOf="@+id/btnHopitais"
+        android:layout_toStartOf="@+id/btnHopitais"
+        app:srcCompat="@android:drawable/btn_star_big_on"
         tools:ignore="ContentDescription" />
 
     <Button
@@ -66,27 +92,16 @@
         android:layout_height="68dp" />
 
     <ImageButton
+        android:id="@+id/imageBtnAvaliacao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:id="@+id/imageButton2"
-        android:layout_alignBottom="@+id/btnMedicos"
+        android:layout_alignBottom="@+id/btnAvalicao"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:contentDescription=""
-        tools:ignore="ContentDescription" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/checkbox_on_background"
-        android:id="@+id/imageButton"
-        android:layout_below="@+id/imageButton4"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageBtnHospital"
         android:layout_toLeftOf="@+id/btnHopitais"
         android:layout_toStartOf="@+id/btnHopitais"
-        android:layout_alignBottom="@+id/btnAvalicao"
+        app:srcCompat="@android:drawable/checkbox_on_background"
         tools:ignore="ContentDescription" />
 
     <Button
