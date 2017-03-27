@@ -19,7 +19,11 @@
         <activity android:name=".TelaMedicos" />
         <activity android:name=".TelaFavoritos" />
         <activity android:name=".TelaHospitais" />
-        <activity android:name=".TelaAvaliacao"></activity>
+        <activity android:name=".TelaAvaliacao" />
+        <activity android:name=".TelaEsqueceuSenha" />
+        <activity android:name=".TelaCadastro" />
+        <activity android:name=".TelaHospitaisPerfil" />
+        <activity android:name=".TelaMedicosPerfil"></activity>
     </application>
 
 </manifest>
