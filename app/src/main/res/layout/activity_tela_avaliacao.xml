@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Digite a especialidade"
+        android:text="@string/digite_a_especialidade"
         android:layout_marginBottom="12dp"
         android:layout_alignBottom="@+id/imageButton"
         android:layout_alignLeft="@+id/editText2"
@@ -25,17 +25,15 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="230dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_above="@+id/imageButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="11dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Digite o Hospital ou Médico"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/imageButton"
-        android:layout_toEndOf="@+id/imageButton"
-        android:layout_marginLeft="15dp"
-        android:layout_marginStart="15dp" />
+        android:text="@string/digite_o_hospital_ou_m_dico" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -45,16 +43,64 @@
         android:layout_marginTop="21dp"
         android:layout_below="@+id/imageButton2"
         android:layout_alignLeft="@+id/imageButton2"
-        android:layout_alignStart="@+id/imageButton2" />
+        android:layout_alignStart="@+id/imageButton2"
+        android:contentDescription=""
+        tools:ignore="ContentDescription" />
 
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="34dp"
+        android:layout_marginTop="40dp"
         app:srcCompat="@mipmap/ic_launcher"
+        android:contentDescription=""
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mussum_ipsum_cacilds_vidis_litro_abertis_suco_de_cevadiss_um_leite_divinis_qui_tem_lupuliz_matis_aguis_e_fermentis_si_u_mundo_t_muito_paradis_toma_um_m_que_o_mundo_vai_girarzis_em_p_sem_cair_deitado_sem_dormir_sentado_sem_cochilar_e_fazendo_pose_ta_deprimidis_eu_conhe_o_uma_cachacis_que_pode_alegrar_sua_vidis"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="11dp"
+        android:text="@string/coment_rios"
+        tools:text="Comentario" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ratingBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+
+        tools:ignore="RelativeOverlap"
+        tools:text="Avaliação:" />
 
 </RelativeLayout>
