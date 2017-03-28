@@ -11,4 +11,6 @@
     <string name="entrar">Entrar</string>
     <string name="lembrar_de_mim">Lembrar de mim</string>
     <string name="textview">TextView</string>
+    <string name="j_cadastrado">Já é cadastrado?</string>
+    <string name="m_dicos">Médicos</string>
 </resources>

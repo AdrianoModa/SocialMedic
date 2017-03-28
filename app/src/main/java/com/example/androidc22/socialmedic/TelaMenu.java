@@ -13,6 +13,7 @@ public class TelaMenu extends AppCompatActivity {
     private Button bFavoritos;
     private Button bHospitais;
     private Button bAvaliacao;
+    private Button bSair;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +53,14 @@ public class TelaMenu extends AppCompatActivity {
             public void onClick(View v) {
                 Intent itTelaAvaliacao = new Intent(TelaMenu.this, TelaAvaliacao.class);
                 startActivity(itTelaAvaliacao);
+            }
+        });
+
+        bAvaliacao = (Button) findViewById(R.id.btnSair);
+        bAvaliacao.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
             }
         });
 
