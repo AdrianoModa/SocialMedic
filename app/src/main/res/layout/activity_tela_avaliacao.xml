@@ -99,7 +99,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="17dp"
-        android:text="@string/Avaliação:"
+
         tools:ignore="RelativeOverlap"
         tools:text="Avaliação:" />
 
