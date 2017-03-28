@@ -50,7 +50,8 @@
         android:layout_width="48dp"
         android:layout_height="match_parent"
         android:layout_below="@+id/textView"
-        android:layout_marginTop="26dp">
+        android:layout_marginTop="26dp"
+        android:layout_alignBottom="@+id/relativeLayout2">
 
     </RelativeLayout>
 
@@ -130,20 +131,20 @@
 
     <Button
         android:id="@+id/btnMedico06"
-        android:layout_width="250dp"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView5"
+        android:layout_toEndOf="@+id/relativeLayout"
+        android:layout_toRightOf="@+id/relativeLayout"
         android:text="Ciclana Lima Vieira \nNutricionista"
         android:textAlignment="viewStart"
         android:textAllCaps="false"
         android:textSize="10sp"
-        android:layout_below="@+id/imageView5"
-        android:layout_toRightOf="@+id/relativeLayout"
-        android:layout_toEndOf="@+id/relativeLayout"
         tools:ignore="HardcodedText,SmallSp" />
 
     <Button
         android:id="@+id/btnMedico05"
-        android:layout_width="250dp"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnMedico04"
         android:layout_toEndOf="@+id/relativeLayout"
@@ -156,7 +157,7 @@
 
     <Button
         android:id="@+id/btnMedico04"
-        android:layout_width="250dp"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView3"
         android:layout_toEndOf="@+id/relativeLayout"
@@ -169,7 +170,7 @@
 
     <Button
         android:id="@+id/btnMedico03"
-        android:layout_width="250dp"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView2"
         android:layout_toEndOf="@+id/relativeLayout"
@@ -182,20 +183,20 @@
 
     <Button
         android:id="@+id/btnMedico02"
-        android:layout_width="250dp"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_toEndOf="@+id/relativeLayout"
+        android:layout_toRightOf="@+id/relativeLayout"
         android:text="Beltrano da Silva \nOrtopedista"
         android:textAlignment="viewStart"
         android:textAllCaps="false"
         android:textSize="10sp"
-        android:layout_below="@+id/imageView1"
-        android:layout_toRightOf="@+id/relativeLayout"
-        android:layout_toEndOf="@+id/relativeLayout"
         tools:ignore="HardcodedText,SmallSp" />
 
     <Button
         android:id="@+id/btnMedico01"
-        android:layout_width="250dp"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imageView1"
         android:layout_toEndOf="@+id/relativeLayout"
@@ -212,9 +213,9 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:numStars="1"
-        android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/btnMedico03"
-        android:layout_toEndOf="@+id/btnMedico03" />
+        android:layout_below="@+id/ratingBar18"
+        android:layout_toRightOf="@+id/btnMedico04"
+        android:layout_toEndOf="@+id/btnMedico04" />
 
     <RatingBar
         android:id="@+id/ratingBar6"
@@ -233,16 +234,6 @@
         android:layout_toEndOf="@+id/btnMedico06"
         android:layout_toRightOf="@+id/btnMedico06"
         android:numStars="1" />
-
-    <RatingBar
-        android:id="@+id/ratingBar5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:numStars="1"
-        android:layout_below="@+id/ratingBar3"
-        android:layout_alignRight="@+id/ratingBar2"
-        android:layout_alignEnd="@+id/ratingBar2"
-        tools:ignore="UnknownIdInLayout" />
 
     <RatingBar
         android:id="@+id/ratingBar4"
