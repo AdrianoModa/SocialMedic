@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toast.makeText(this, "Construindo SocialMedic", Toast.LENGTH_LONG).show();
+        //Toast.makeText(this, "Construindo SocialMedic", Toast.LENGTH_LONG).show();
 
         bEntrar = (Button) findViewById(R.id.btnEntrar);
         bEntrar.setOnClickListener(new View.OnClickListener() {
