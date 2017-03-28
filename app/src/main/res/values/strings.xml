@@ -13,4 +13,6 @@
     <string name="textview">TextView</string>
     <string name="j_cadastrado">Já é cadastrado?</string>
     <string name="m_dicos">Médicos</string>
+    <string name="especialidade_hospital">Especialidade Hospital</string>
+    <string name="nome_hospital">Nome Hospital</string>
 </resources>
