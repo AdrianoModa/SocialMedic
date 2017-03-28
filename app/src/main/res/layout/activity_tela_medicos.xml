@@ -81,15 +81,6 @@
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/sym_def_app_icon"
-        android:layout_below="@+id/imageView6"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <ImageView
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -135,25 +126,13 @@
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <Button
-        android:id="@+id/btnMedico07"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView6"
-        android:layout_toEndOf="@+id/relativeLayout"
-        android:layout_toRightOf="@+id/relativeLayout"
-        android:text="Maternidade Escola \nMaternidade"
-        android:textAlignment="viewStart"
-        android:textAllCaps="false"
-        android:textSize="10sp" />
-
-    <Button
         android:id="@+id/btnMedico06"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnMedico05"
         android:layout_toEndOf="@+id/relativeLayout"
         android:layout_toRightOf="@+id/relativeLayout"
-        android:text="Posto de Saúde Edson Queiroz \nPosto Saude"
+        android:text="Ciclana Lima Vieira \nNutricionista"
         android:textAlignment="viewStart"
         android:textAllCaps="false"
         android:textSize="10sp" />
@@ -165,7 +144,7 @@
         android:layout_below="@+id/btnMedico04"
         android:layout_toEndOf="@+id/relativeLayout"
         android:layout_toRightOf="@+id/relativeLayout"
-        android:text="Pronto Atendimento Aldeota \nPronto Atendimento"
+        android:text="Ultrano Moreira de Souza \nClinico Geral"
         android:textAlignment="viewStart"
         android:textAllCaps="false"
         android:textSize="10sp" />
@@ -177,7 +156,7 @@
         android:layout_below="@+id/imageView3"
         android:layout_toEndOf="@+id/relativeLayout"
         android:layout_toRightOf="@+id/relativeLayout"
-        android:text="Hospital Gonzaga Mota \nMaternidade"
+        android:text="Fulano Souza Moura \nPsicologo"
         android:textAlignment="viewStart"
         android:textAllCaps="false"
         android:textSize="10sp" />
@@ -189,7 +168,7 @@
         android:layout_below="@+id/imageView2"
         android:layout_toEndOf="@+id/relativeLayout"
         android:layout_toRightOf="@+id/relativeLayout"
-        android:text="Hospital da Criança \nInfantil"
+        android:text="Ciclano Alves Ferreira \nPediatra"
         android:textAlignment="viewStart"
         android:textAllCaps="false"
         android:textSize="10sp" />
@@ -201,7 +180,7 @@
         android:layout_below="@+id/btnMedico01"
         android:layout_toEndOf="@+id/relativeLayout"
         android:layout_toRightOf="@+id/relativeLayout"
-        android:text="Hospital do Montese \nPronto Socorro"
+        android:text="Beltrano da Silva \nOrtopedista"
         android:textAlignment="viewStart"
         android:textAllCaps="false"
         android:textSize="10sp" />
@@ -214,7 +193,7 @@
         android:layout_toEndOf="@+id/relativeLayout"
         android:layout_toLeftOf="@+id/ratingBar2"
         android:layout_toRightOf="@+id/relativeLayout"
-        android:text="Hospital da Messejana \nPronto Socorro"
+        android:text="Fulano Silveira Mendes \nClinico Geral"
         android:textAlignment="textStart"
         android:textAllCaps="false"
         android:textSize="10sp" />
@@ -228,16 +207,6 @@
         android:layout_toRightOf="@+id/relativeLayout2"
         android:layout_toEndOf="@+id/relativeLayout2"
         android:layout_above="@+id/btnMedico04" />
-
-    <RatingBar
-        android:id="@+id/ratingBar7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/btnMedico07"
-        android:layout_below="@+id/btnMedico06"
-        android:layout_toEndOf="@+id/relativeLayout2"
-        android:layout_toRightOf="@+id/relativeLayout2"
-        android:numStars="1" />
 
     <RatingBar
         android:id="@+id/ratingBar6"
