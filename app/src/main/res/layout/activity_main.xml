@@ -11,86 +11,70 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.androidc22.socialmedic.MainActivity">
 
-    <TextView
-        android:text="@string/login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="110dp"
-        android:id="@+id/txtLogin"
-        android:textSize="22sp"
-        tools:text="Login"
-        android:textAllCaps="false"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="@string/senha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtSenha"
-        android:textSize="22sp"
-        android:layout_centerVertical="true"
-        tools:text="Senha"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:id="@+id/editTextLogin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/txtLogin"
-        android:ems="10"
-        android:inputType="textEmailAddress" />
-
-    <EditText
-        android:id="@+id/editTextSenha"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/txtSenha"
-        android:ems="10"
-        android:inputType="textPassword" />
-
-    <TextView
-        android:id="@+id/txtEsqueceuSenha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:text="Esqueceu a Senha?"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="26dp" />
-
     <Button
         android:text="@string/entrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
         android:id="@+id/btnEntrar"
-        android:layout_below="@+id/editTextSenha"
+        android:layout_below="@+id/editText4"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="93dp" />
 
     <CheckBox
         android:id="@+id/idLembrete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="lembrar de mim"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/btnEntrar"
-        android:text="lembrar de mim" />
+        android:layout_marginBottom="38dp"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/txtCadastrado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/j_cadastrado"
-        android:layout_alignBaseline="@+id/idLembrete"
         android:layout_alignBottom="@+id/idLembrete"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        tools:ignore="RelativeOverlap" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        tools:text="Login" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/Senha_Principal"
+        tools:text="Senha" />
+
+    <Button
+        android:id="@+id/btn_EsqueciSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/esqueci_a_senha"
+        tools:text="Esqueci a Senha!"
+        android:layout_below="@+id/btnEntrar"
+        android:layout_toLeftOf="@+id/txtCadastrado"
+        android:layout_toStartOf="@+id/txtCadastrado"
+        android:layout_marginTop="23dp" />
 
 </RelativeLayout>

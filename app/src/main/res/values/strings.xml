@@ -15,4 +15,12 @@
     <string name="m_dicos">Médicos</string>
     <string name="especialidade_hospital">Especialidade Hospital</string>
     <string name="nome_hospital">Nome Hospital</string>
+    <string name="coment_rios">Comentários</string>
+    <string name="digite_a_especialidade">Digite a especialidade</string>
+    <string name="digite_o_hospital_ou_m_dico">Digite o Hospital ou Médico</string>
+    <string name="mussum_ipsum_cacilds_vidis_litro_abertis_suco_de_cevadiss_um_leite_divinis_qui_tem_lupuliz_matis_aguis_e_fermentis_si_u_mundo_t_muito_paradis_toma_um_m_que_o_mundo_vai_girarzis_em_p_sem_cair_deitado_sem_dormir_sentado_sem_cochilar_e_fazendo_pose_ta_deprimidis_eu_conhe_o_uma_cachacis_que_pode_alegrar_sua_vidis">Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Ta deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.”</string>
+    <string name="avalia_o_do_coment_rio">Avaliação do comentário</string>
+    <string name="name">Name</string>
+    <string name="Senha_Principal">Name</string>
+    <string name="esqueci_a_senha">Esqueci a Senha!</string>
 </resources>

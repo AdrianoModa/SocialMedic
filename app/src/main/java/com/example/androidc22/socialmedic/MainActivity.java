@@ -11,6 +11,8 @@ public class MainActivity extends AppCompatActivity {
 
     private Button bEntrar;
 
+    private Button btn_EsqueciSenha;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,13 +20,28 @@ public class MainActivity extends AppCompatActivity {
 
         //Toast.makeText(this, "Construindo SocialMedic", Toast.LENGTH_LONG).show();
 
+        btn_EsqueciSenha = (Button)findViewById(R.id.btn_EsqueciSenha);
         bEntrar = (Button) findViewById(R.id.btnEntrar);
+
+
+
         bEntrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 Intent itTelaMenu = new Intent(MainActivity.this, TelaMenu.class);
                 startActivity(itTelaMenu);
+            }
+        });
+
+        btn_EsqueciSenha.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+
+                Intent itTelaEsqueciSenha = new Intent(MainActivity.this, TelaEsqueceuSenha.class);
+                startActivity(itTelaEsqueciSenha);
+
             }
         });
     }
