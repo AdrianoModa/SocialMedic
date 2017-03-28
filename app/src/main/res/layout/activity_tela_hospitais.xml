@@ -16,7 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button10"
-        android:layout_below="@+id/btnMedico01"
+        android:layout_below="@+id/btnHospital03"
         android:layout_toEndOf="@+id/relativeLayout2"
         android:layout_toRightOf="@+id/relativeLayout2"
         android:numStars="1" />
@@ -126,10 +126,10 @@
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <Button
-        android:id="@+id/btnMedico06"
+        android:id="@+id/btnHospital06"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnMedico05"
+        android:layout_below="@+id/btnHospital05"
         android:layout_toEndOf="@+id/relativeLayout"
         android:layout_toRightOf="@+id/relativeLayout"
         android:text="Posto de Saúde Edson Queiroz \nPosto Saude"
@@ -138,10 +138,10 @@
         android:textSize="10sp" />
 
     <Button
-        android:id="@+id/btnMedico05"
+        android:id="@+id/btnHospital05"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnMedico04"
+        android:layout_below="@+id/btnHospital04"
         android:layout_toEndOf="@+id/relativeLayout"
         android:layout_toRightOf="@+id/relativeLayout"
         android:text="Pronto Atendimento Aldeota \nPronto Atendimento"
@@ -150,7 +150,7 @@
         android:textSize="10sp" />
 
     <Button
-        android:id="@+id/btnMedico04"
+        android:id="@+id/btnHospital04"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView3"
@@ -162,7 +162,7 @@
         android:textSize="10sp" />
 
     <Button
-        android:id="@+id/btnMedico03"
+        android:id="@+id/btnHospital03"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView2"
@@ -174,10 +174,10 @@
         android:textSize="10sp" />
 
     <Button
-        android:id="@+id/btnMedico02"
+        android:id="@+id/btnHospital02"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnMedico01"
+        android:layout_below="@+id/btnHospital03"
         android:layout_toEndOf="@+id/relativeLayout"
         android:layout_toRightOf="@+id/relativeLayout"
         android:text="Hospital do Montese \nPronto Socorro"
@@ -186,7 +186,7 @@
         android:textSize="10sp" />
 
     <Button
-        android:id="@+id/btnMedico01"
+        android:id="@+id/btnHospital03"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imageView1"
@@ -203,17 +203,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:numStars="1"
-        android:layout_below="@+id/btnMedico02"
+        android:layout_below="@+id/btnHospital02"
         android:layout_toRightOf="@+id/relativeLayout2"
         android:layout_toEndOf="@+id/relativeLayout2"
-        android:layout_above="@+id/btnMedico04" />
+        android:layout_above="@+id/btnHospital04" />
 
     <RatingBar
         android:id="@+id/ratingBar6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/btnMedico07"
-        android:layout_below="@+id/btnMedico05"
+        android:layout_below="@+id/btnHospital05"
         android:layout_toEndOf="@+id/relativeLayout2"
         android:layout_toRightOf="@+id/relativeLayout2"
         android:numStars="1" />
@@ -222,8 +222,8 @@
         android:id="@+id/ratingBar5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/btnMedico06"
-        android:layout_below="@+id/btnMedico04"
+        android:layout_above="@+id/btnHospital06"
+        android:layout_below="@+id/btnHospital04"
         android:layout_toEndOf="@+id/relativeLayout2"
         android:layout_toRightOf="@+id/relativeLayout2"
         android:numStars="1" />
@@ -232,7 +232,7 @@
         android:id="@+id/ratingBar4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/btnMedico05"
+        android:layout_above="@+id/btnHospital05"
         android:layout_below="@+id/ratingBar3"
         android:layout_toEndOf="@+id/relativeLayout2"
         android:layout_toRightOf="@+id/relativeLayout2"
@@ -242,7 +242,7 @@
         android:id="@+id/ratingBar1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/btnMedico02"
+        android:layout_above="@+id/btnHospital02"
         android:layout_alignTop="@+id/relativeLayout2"
         android:layout_toEndOf="@+id/relativeLayout2"
         android:layout_toRightOf="@+id/relativeLayout2"

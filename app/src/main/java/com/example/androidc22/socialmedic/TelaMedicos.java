@@ -15,7 +15,7 @@ public class TelaMedicos extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_medicos);
 
-        btnMedico = (Button) findViewById(R.id.btnMedico01);
+        btnMedico = (Button) findViewById(R.id.btnHospital03);
 
         btnMedico.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,6 +24,8 @@ public class TelaMedicos extends AppCompatActivity{
                 startActivity(itTelaMedicoPerfil);
             }
         });
+
+        // Maikon coloquei o nome dos botoes de btnMedicos01 até o 06 pra ficar padronizado
 
 
         //Toast.makeText(this, "Tela Médicos OK!", Toast.LENGTH_LONG).show();
