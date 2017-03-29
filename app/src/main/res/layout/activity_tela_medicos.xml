@@ -16,7 +16,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_above="@+id/btnMedico03"
-        android:layout_below="@+id/btnMedico01"
+        android:layout_below="@+id/btnHospital03"
         android:layout_toEndOf="@+id/btnMedico03"
         android:layout_toRightOf="@+id/btnMedico03"
         android:numStars="1" />
@@ -130,7 +130,7 @@
         tools:ignore="ContentDescription" />
 
     <Button
-        android:id="@+id/btnMedico06"
+        android:id="@+id/btnHospital06"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView5"
@@ -143,10 +143,10 @@
         tools:ignore="HardcodedText,SmallSp" />
 
     <Button
-        android:id="@+id/btnMedico05"
+        android:id="@+id/btnHospital05"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnMedico04"
+        android:layout_below="@+id/btnHospital04"
         android:layout_toEndOf="@+id/relativeLayout"
         android:layout_toRightOf="@+id/relativeLayout"
         android:text="Ultrano Moreira de Souza \nClinico Geral"
@@ -156,7 +156,7 @@
         tools:ignore="HardcodedText,SmallSp" />
 
     <Button
-        android:id="@+id/btnMedico04"
+        android:id="@+id/btnHospital04"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView3"
@@ -182,7 +182,7 @@
         tools:ignore="HardcodedText,SmallSp" />
 
     <Button
-        android:id="@+id/btnMedico02"
+        android:id="@+id/btnHospital02"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView1"
@@ -195,7 +195,7 @@
         tools:ignore="HardcodedText,SmallSp" />
 
     <Button
-        android:id="@+id/btnMedico01"
+        android:id="@+id/btnHospital03"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imageView1"
@@ -214,25 +214,25 @@
         android:layout_height="50dp"
         android:numStars="1"
         android:layout_below="@+id/ratingBar18"
-        android:layout_toRightOf="@+id/btnMedico04"
-        android:layout_toEndOf="@+id/btnMedico04" />
+        android:layout_toRightOf="@+id/btnHospital04"
+        android:layout_toEndOf="@+id/btnHospital04" />
 
     <RatingBar
         android:id="@+id/ratingBar6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:numStars="1"
-        android:layout_below="@+id/btnMedico05"
-        android:layout_toRightOf="@+id/btnMedico06"
-        android:layout_toEndOf="@+id/btnMedico06" />
+        android:layout_below="@+id/btnHospital05"
+        android:layout_toRightOf="@+id/btnHospital06"
+        android:layout_toEndOf="@+id/btnHospital06" />
 
     <RatingBar
         android:id="@+id/ratingBar7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnMedico04"
-        android:layout_toEndOf="@+id/btnMedico06"
-        android:layout_toRightOf="@+id/btnMedico06"
+        android:layout_below="@+id/btnHospital04"
+        android:layout_toEndOf="@+id/btnHospital06"
+        android:layout_toRightOf="@+id/btnHospital06"
         android:numStars="1" />
 
     <RatingBar
@@ -240,16 +240,16 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:numStars="1"
-        android:layout_above="@+id/btnMedico05"
-        android:layout_toRightOf="@+id/btnMedico05"
-        android:layout_toEndOf="@+id/btnMedico05" />
+        android:layout_above="@+id/btnHospital05"
+        android:layout_toRightOf="@+id/btnHospital05"
+        android:layout_toEndOf="@+id/btnHospital05" />
 
     <RatingBar
         android:id="@+id/ratingBar1"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_above="@+id/btnMedico02"
-        android:layout_toRightOf="@+id/btnMedico01"
+        android:layout_above="@+id/btnHospital02"
+        android:layout_toRightOf="@+id/btnHospital03"
         android:numStars="1"
         android:layout_alignRight="@+id/ratingBar7"
         android:layout_alignEnd="@+id/ratingBar7"

@@ -11,6 +11,6 @@ public class TelaMedicosPerfil extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_medicos_perfil);
 
-        Toast.makeText(this, "Tela Medico Perfis", Toast.LENGTH_LONG).show();
+        //Toast.makeText(this, "Tela Medico Perfis", Toast.LENGTH_LONG).show();
     }
 }

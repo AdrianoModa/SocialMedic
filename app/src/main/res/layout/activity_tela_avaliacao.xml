@@ -12,28 +12,32 @@
     tools:context="com.example.androidc22.socialmedic.TelaAvaliacao">
 
     <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
+        android:id="@+id/AvaEspec"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton"
+        android:layout_alignLeft="@+id/AvaEmailField"
+        android:layout_alignStart="@+id/AvaEmailField"
+        android:layout_marginBottom="12dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/digite_a_especialidade"
-        android:layout_marginBottom="12dp"
-        android:layout_alignBottom="@+id/imageButton"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_alignStart="@+id/editText2" />
+        android:text="Digite a especialidade."
+        android:textColor="#999"
+        android:textSize="15sp" />
 
     <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
+        android:id="@+id/AvaEmailField"
+        android:layout_width="340dp"
         android:layout_height="wrap_content"
         android:layout_above="@+id/imageButton"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="11dp"
+        android:layout_alignLeft="@+id/ratingBar"
+        android:layout_alignStart="@+id/ratingBar"
+        android:layout_marginBottom="13dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/digite_o_hospital_ou_m_dico" />
+        android:inputType="text|textPersonName"
+        android:text="Digite seu hospital ou Médico"
+        android:textColor="#999"
+        android:textSize="15sp" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -60,47 +64,68 @@
         tools:ignore="ContentDescription" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/MedicoEspec"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/mussum_ipsum_cacilds_vidis_litro_abertis_suco_de_cevadiss_um_leite_divinis_qui_tem_lupuliz_matis_aguis_e_fermentis_si_u_mundo_t_muito_paradis_toma_um_m_que_o_mundo_vai_girarzis_em_p_sem_cair_deitado_sem_dormir_sentado_sem_cochilar_e_fazendo_pose_ta_deprimidis_eu_conhe_o_uma_cachacis_que_pode_alegrar_sua_vidis"
-        android:layout_alignTop="@+id/textView3"
+        android:layout_alignTop="@+id/IDcomentAval"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="18dp" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="80dp"
+        android:id="@+id/IDcomentAval"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/editText"
-        android:layout_marginTop="11dp"
-        android:text="@string/coment_rios"
+        android:layout_below="@+id/imageButton"
+        android:layout_marginTop="86dp"
+        android:textSize="17sp"
         tools:text="Comentario" />
 
     <RatingBar
         android:id="@+id/ratingBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
+        android:layout_above="@+id/MedicoEspec"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="13dp"
-        android:layout_marginEnd="13dp"
-        android:layout_marginTop="15dp" />
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/ratingBar"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="17dp"
 
         tools:ignore="RelativeOverlap"
-        tools:text="Avaliação:" />
+        tools:text="Avaliação:"
+        android:layout_toRightOf="@+id/MedicoEspec"
+        android:layout_toEndOf="@+id/MedicoEspec" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/MedicoEspec"
+        android:layout_toEndOf="@+id/MedicoEspec"
+        android:layout_toRightOf="@+id/MedicoEspec">
+
+    </android.support.design.widget.TextInputLayout>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/MedicoEspec"
+        android:hint="Digite seu comentário"
+        android:textColor="#333"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnEnviarComent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Enviar" />
 
 </RelativeLayout>

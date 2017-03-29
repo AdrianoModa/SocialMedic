@@ -15,4 +15,6 @@
     <string name="m_dicos">Médicos</string>
     <string name="especialidade_hospital">Especialidade Hospital</string>
     <string name="nome_hospital">Nome Hospital</string>
+    <string name="bio">Bio</string>
+    <string name="senha01">Senha:</string>
 </resources>

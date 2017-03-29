@@ -38,7 +38,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/MedicoEspec"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Especialidade"
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:contextClickable="true"
             android:layout_alignBottom="@+id/imageView3"
-            android:layout_alignLeft="@+id/textView2"
-            android:layout_alignStart="@+id/textView2" />
+            android:layout_alignLeft="@+id/MedicoEspec"
+            android:layout_alignStart="@+id/MedicoEspec" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

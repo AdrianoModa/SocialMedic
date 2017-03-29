@@ -35,19 +35,19 @@
             android:textStyle="bold"
             tools:ignore="HardcodedText"
             android:layout_alignParentTop="true"
-            android:layout_alignLeft="@+id/textView2"
-            android:layout_alignStart="@+id/textView2" />
+            android:layout_alignLeft="@+id/MedicoEspec"
+            android:layout_alignStart="@+id/MedicoEspec" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/MedicoEspec"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/especialidade"
-            android:textAlignment="center"
-            android:textSize="16sp"
             android:layout_above="@+id/ratingBar"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="10dp" />
+            android:layout_marginBottom="10dp"
+            android:text="Especialidade"
+            android:textAlignment="center"
+            android:textSize="16sp" />
 
         <RatingBar
             android:id="@+id/ratingBar"
@@ -61,9 +61,65 @@
             android:stepSize="70"
             android:textAlignment="center"
             android:layout_alignBottom="@+id/imageView3"
-            android:layout_alignLeft="@+id/textView2"
-            android:layout_alignStart="@+id/textView2"
+            android:layout_alignLeft="@+id/MedicoEspec"
+            android:layout_alignStart="@+id/MedicoEspec"
             android:layout_marginBottom="12dp"
             tools:ignore="UnusedAttribute" />
+
+        <TextView
+            android:id="@+id/DescMedicoTl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView3"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="34dp"
+            android:text="@string/bio"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/BioField"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/DescMedicoTl"
+            android:layout_alignStart="@+id/DescMedicoTl"
+            android:layout_below="@+id/DescMedicoTl"
+            android:layout_marginTop="15dp"
+            android:text="Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou Euzis! Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Suco de cevadiss deixa as pessoas mais interessantiss. Cevadis im ampola pa arma uma pindureta."
+            tools:ignore="HardcodedText"
+            tools:text="Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou Euzis! Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Suco de cevadiss deixa as pessoas mais interessantiss. Cevadis im ampola pa arma uma pindureta." />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="69dp"
+            android:id="@+id/textInputLayout">
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/MensagensID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/BioField"
+            android:layout_alignStart="@+id/BioField"
+            android:layout_below="@+id/BioField"
+            android:layout_marginTop="26dp"
+            android:text="Mensagens" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/MensagensID"
+            android:layout_alignStart="@+id/MensagensID"
+            android:layout_below="@+id/MensagensID"
+            android:hint="Escreva seu mensagem." />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

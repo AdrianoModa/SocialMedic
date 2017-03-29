@@ -59,5 +59,54 @@
             android:layout_below="@+id/txtHospCat"
             android:layout_alignLeft="@+id/txtHospCat"
             android:layout_alignStart="@+id/txtHospCat" />
+
+        <TextView
+            android:id="@+id/IDDescricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="30dp"
+            android:text="Sobre"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/IDDescricao"
+            android:layout_alignStart="@+id/IDDescricao"
+            android:layout_below="@+id/IDDescricao"
+            android:layout_marginTop="23dp"
+            android:text="TextView"
+            tools:text="Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou Euzis! Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Suco de cevadiss deixa as pessoas mais interessantiss. Cevadis im ampola pa arma uma pindureta." />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="54dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:id="@+id/textInputLayout2">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Deixe seu comentário." />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/ComentariosID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textInputLayout2"
+            android:layout_alignLeft="@+id/textInputLayout2"
+            android:layout_alignStart="@+id/textInputLayout2"
+            android:text="Comentários" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

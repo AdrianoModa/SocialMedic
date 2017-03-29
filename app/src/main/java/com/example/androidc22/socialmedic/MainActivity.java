@@ -10,7 +10,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private Button bEntrar;
-
+    private Button btnCadastrar;
     private Button btn_EsqueciSenha;
 
     @Override
@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         btn_EsqueciSenha = (Button)findViewById(R.id.btn_EsqueciSenha);
         bEntrar = (Button) findViewById(R.id.btnEntrar);
+        btnCadastrar = (Button) findViewById(R.id.btnCadastrar);
 
 
 
@@ -41,6 +42,17 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent itTelaEsqueciSenha = new Intent(MainActivity.this, TelaEsqueceuSenha.class);
                 startActivity(itTelaEsqueciSenha);
+
+            }
+        });
+
+        btnCadastrar.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+
+                Intent itTelaCadastro = new Intent(MainActivity.this, TelaCadastro.class);
+                startActivity(itTelaCadastro);
 
             }
         });

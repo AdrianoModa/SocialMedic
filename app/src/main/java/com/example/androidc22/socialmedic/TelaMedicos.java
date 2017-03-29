@@ -21,7 +21,7 @@ public class TelaMedicos extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_medicos);
 
-        btnMedico01 = (Button) findViewById(R.id.btnMedico01);
+        btnMedico01 = (Button) findViewById(R.id.btnHospital03);
         btnMedico01.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -30,7 +30,7 @@ public class TelaMedicos extends AppCompatActivity{
             }
         });
 
-        btnMedico02 = (Button) findViewById(R.id.btnMedico02);
+        btnMedico02 = (Button) findViewById(R.id.btnHospital02);
         btnMedico02.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -48,7 +48,7 @@ public class TelaMedicos extends AppCompatActivity{
             }
         });
 
-        btnMedico04 = (Button) findViewById(R.id.btnMedico04);
+        btnMedico04 = (Button) findViewById(R.id.btnHospital04);
         btnMedico04.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -57,7 +57,7 @@ public class TelaMedicos extends AppCompatActivity{
             }
         });
 
-        btnMedico05 = (Button) findViewById(R.id.btnMedico05);
+        btnMedico05 = (Button) findViewById(R.id.btnHospital05);
         btnMedico05.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -66,7 +66,7 @@ public class TelaMedicos extends AppCompatActivity{
             }
         });
 
-        btnMedico06 = (Button) findViewById(R.id.btnMedico06);
+        btnMedico06 = (Button) findViewById(R.id.btnHospital06);
         btnMedico06.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
