@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -12,11 +13,13 @@
     tools:context="com.example.androidc22.socialmedic.MainActivity">
 
     <Button
-        android:text="@string/entrar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/btnEntrar"
-        android:layout_centerVertical="true"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="#4db8ff"
+        android:text="@string/entrar"
+        android:layout_alignBaseline="@+id/btnCadastrar"
+        android:layout_alignBottom="@+id/btnCadastrar"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -25,56 +28,88 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="lembrar de mim"
-        android:layout_alignParentBottom="true"
+        tools:ignore="HardcodedText"
+        android:layout_above="@+id/btnCadastrar"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="38dp"
-        tools:ignore="HardcodedText" />
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:id="@+id/editText3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="21dp"
-        android:ems="10"
-        android:inputType="textPersonName"
+        android:layout_height="50dp"
 
-        android:text="@string/login"
-        tools:text="Login" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:background="#c3c3c3"
+        android:ems="10"
+        android:hint="Insira seu usuário ou email"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="#666" />
 
     <Button
         android:id="@+id/btn_EsqueciSenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnEntrar"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="47dp"
+        android:background="@android:color/transparent"
         android:text="Esqueci a Senha!"
-        tools:text="Esqueci a Senha!" />
-
-    <EditText
-        android:id="@+id/editText5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/editText3"
+        tools:text="Esqueci a Senha!"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="49dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Senha:"
-        tools:text="Senha:"
-        tools:ignore="HardcodedText" />
+        android:layout_marginBottom="23dp" />
 
     <Button
         android:id="@+id/btnCadastrar"
         android:layout_width="150dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
+        android:background="#4db8ff"
         android:text="cadastre-se"
-        android:layout_alignBaseline="@+id/idLembrete"
-        android:layout_alignBottom="@+id/idLembrete"
+        android:layout_marginBottom="65dp"
+        android:layout_alignBottom="@+id/btn_EsqueciSenha"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="#c3c3c3"
+        android:ems="10"
+        android:hint="Insira sua senha"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:text="Usuário ou Email"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="Sua senha"
+        android:textColor="#000"
+        android:layout_below="@+id/editText3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
