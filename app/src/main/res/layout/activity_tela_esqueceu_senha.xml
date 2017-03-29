@@ -2,40 +2,42 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:id="@+id/qwert03"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="93dp"
         android:text="Prencha o campo abaixo com o endereço de email registrado"
         tools:ignore="HardcodedText"
-        tools:text="Prencha o campo abaixo com o endereço de email registrado"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        tools:text="Prencha o campo abaixo com o endereço de email registrado" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/qwert04"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/qwert05"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Endereco de email"
         tools:ignore="HardcodedText"
-        tools:text="Endereço de Email"
-        android:layout_above="@+id/button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="52dp" />
+        tools:text="Endereço de Email" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/qwert05"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enviar"
-        tools:ignore="HardcodedText"
-        tools:text="Enviar"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="162dp" />
+        android:layout_marginBottom="162dp"
+        android:text="Enviar"
+        tools:ignore="HardcodedText"
+        tools:text="Enviar" />
 </RelativeLayout>
