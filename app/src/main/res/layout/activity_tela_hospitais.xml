@@ -19,7 +19,8 @@
         android:layout_below="@+id/btnMedico01"
         android:layout_toEndOf="@+id/relativeLayout2"
         android:layout_toRightOf="@+id/relativeLayout2"
-        android:numStars="1" />
+        android:numStars="1"
+        tools:ignore="UnknownIdInLayout" />
 
     <SearchView
         android:id="@+id/idBuscarMedicos"
@@ -78,7 +79,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignTop="@+id/relativeLayout"
-        app:srcCompat="@android:drawable/sym_def_app_icon" />
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -87,7 +89,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imageView5"
-        app:srcCompat="@android:drawable/sym_def_app_icon" />
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -96,7 +99,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imageView7"
-        app:srcCompat="@android:drawable/sym_def_app_icon" />
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -105,7 +109,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imageView3"
-        app:srcCompat="@android:drawable/sym_def_app_icon" />
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -114,7 +119,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imageView2"
-        app:srcCompat="@android:drawable/sym_def_app_icon" />
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -123,7 +129,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imageView1"
-        app:srcCompat="@android:drawable/sym_def_app_icon" />
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        tools:ignore="ContentDescription" />
 
     <Button
         android:id="@+id/btnMedico06"
@@ -135,7 +142,8 @@
         android:text="Posto de Saúde Edson Queiroz \nPosto Saude"
         android:textAlignment="viewStart"
         android:textAllCaps="false"
-        android:textSize="10sp" />
+        android:textSize="10sp"
+        tools:ignore="HardcodedText,SmallSp" />
 
     <Button
         android:id="@+id/btnMedico05"
@@ -147,7 +155,8 @@
         android:text="Pronto Atendimento Aldeota \nPronto Atendimento"
         android:textAlignment="viewStart"
         android:textAllCaps="false"
-        android:textSize="10sp" />
+        android:textSize="10sp"
+        tools:ignore="HardcodedText,SmallSp" />
 
     <Button
         android:id="@+id/btnMedico04"
@@ -159,7 +168,8 @@
         android:text="Hospital Gonzaga Mota \nMaternidade"
         android:textAlignment="viewStart"
         android:textAllCaps="false"
-        android:textSize="10sp" />
+        android:textSize="10sp"
+        tools:ignore="HardcodedText,SmallSp" />
 
     <Button
         android:id="@+id/btnMedico01"
@@ -171,7 +181,8 @@
         android:text="Hospital da Criança \nInfantil"
         android:textAlignment="viewStart"
         android:textAllCaps="false"
-        android:textSize="10sp" />
+        android:textSize="10sp"
+        tools:ignore="DuplicateIds,HardcodedText,SmallSp" />
 
     <Button
         android:id="@+id/btnMedico02"
@@ -183,7 +194,8 @@
         android:text="Hospital do Montese \nPronto Socorro"
         android:textAlignment="viewStart"
         android:textAllCaps="false"
-        android:textSize="10sp" />
+        android:textSize="10sp"
+        tools:ignore="HardcodedText,SmallSp" />
 
     <Button
         android:id="@+id/btnMedico01"
@@ -196,7 +208,8 @@
         android:text="Hospital da Messejana \nPronto Socorro"
         android:textAlignment="textStart"
         android:textAllCaps="false"
-        android:textSize="10sp" />
+        android:textSize="10sp"
+        tools:ignore="DuplicateIds,HardcodedText,RtlHardcoded,SmallSp" />
 
     <RatingBar
         android:id="@+id/ratingBar3"
@@ -216,7 +229,8 @@
         android:layout_below="@+id/btnMedico05"
         android:layout_toEndOf="@+id/relativeLayout2"
         android:layout_toRightOf="@+id/relativeLayout2"
-        android:numStars="1" />
+        android:numStars="1"
+        tools:ignore="UnknownIdInLayout" />
 
     <RatingBar
         android:id="@+id/ratingBar5"

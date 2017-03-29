@@ -31,18 +31,8 @@
         android:layout_marginBottom="38dp"
         tools:ignore="HardcodedText" />
 
-    <TextView
-        android:id="@+id/txtCadastrado"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/j_cadastrado"
-        android:layout_alignBottom="@+id/idLembrete"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        tools:ignore="RelativeOverlap" />
-
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/qwert01"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -65,15 +55,26 @@
         android:layout_marginTop="47dp" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/qwert02"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText3"
+        android:layout_below="@+id/qwert01"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="49dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Senha:"
         tools:text="Senha:" />
+
+    <Button
+        android:id="@+id/btn_cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/idLembrete"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Cadastro" />
 
 </RelativeLayout>
