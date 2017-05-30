@@ -23,7 +23,9 @@
         <activity android:name=".TelaEsqueceuSenha" />
         <activity android:name=".TelaCadastro" />
         <activity android:name=".TelaHospitaisPerfil" />
-        <activity android:name=".TelaMedicosPerfil"></activity>
+        <activity android:name=".TelaMedicosPerfil" />
+        <activity android:name=".TelaAgendarConsulta" />
+        <activity android:name=".AdicionarReceitas"></activity>
     </application>
 
 </manifest>

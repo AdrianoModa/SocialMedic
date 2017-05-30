@@ -38,15 +38,15 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
 
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView2"
         android:background="#c3c3c3"
         android:ems="10"
         android:hint="Insira seu usuário ou email"
         android:inputType="textPersonName"
         android:paddingLeft="10dp"
-        android:textColor="#666" />
+        android:textColor="#666"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/editText4"
+        android:layout_alignEnd="@+id/editText4" />
 
     <Button
         android:id="@+id/btn_EsqueciSenha"
