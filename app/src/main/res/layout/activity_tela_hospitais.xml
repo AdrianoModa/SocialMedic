@@ -11,246 +11,180 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.androidc22.socialmedic.TelaMedicos">
 
-    <RatingBar
-        android:id="@+id/ratingBar18"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/btnHospital03"
-        android:numStars="1" />
-
     <SearchView
         android:id="@+id/idBuscarMedicos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ratingBar2"
         android:layout_alignRight="@+id/ratingBar2"
-        android:layout_alignEnd="@+id/ratingBar2" />
+        android:background="#fff" >
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="29dp"
-        android:text="@string/m_dicos"
-        android:textSize="20sp"
-        tools:text="Hospitais"
+    </SearchView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/idBuscarMedicos"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_marginTop="19dp"
+        app:cardElevation="3dp">
 
-    <RelativeLayout
-        android:id="@+id/relativeLayout"
-        android:layout_width="48dp"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="26dp">
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="114dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/hospital" />
 
-    </RelativeLayout>
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="15dp"
+            android:text="Unimed Fortaleza" />
 
-    <RelativeLayout
-        android:id="@+id/ratingBar2"
-        android:layout_width="48dp"
-        android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/ratingBar18"
-        android:layout_toEndOf="@+id/ratingBar18">
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="35dp"
+            android:text="Av. Santos Sumont, 949"
+            android:textSize="10sp" />
 
-    </RelativeLayout>
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="50dp"
+            android:text="(85) 3471-2376"
+            android:textSize="10sp" />
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignTop="@+id/relativeLayout"
-        app:srcCompat="@android:drawable/sym_def_app_icon"
-        android:contentDescription=""
-        tools:ignore="ContentDescription" />
+        <Button
+            android:id="@+id/btnHospital01"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="60dp"
+            android:background="@android:color/transparent"
+            android:text="Mais detalhes"
+            android:textColor="#0040FF"
+            android:textSize="10sp" />
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageView5"
-        app:srcCompat="@android:drawable/sym_def_app_icon"
-        tools:ignore="ContentDescription" />
+    </android.support.v7.widget.CardView>
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageView7"
-        app:srcCompat="@android:drawable/sym_def_app_icon"
-        tools:ignore="ContentDescription" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageView3"
-        app:srcCompat="@android:drawable/sym_def_app_icon"
-        tools:ignore="ContentDescription" />
+        android:layout_below="@+id/idBuscarMedicos"
+        android:layout_marginTop="130dp"
+        app:cardElevation="3dp">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="114dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/hospital" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="15dp"
+            android:text="Unimed Fortaleza" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="35dp"
+            android:text="Av. Santos Sumont, 949"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="50dp"
+            android:text="(85) 3471-2376"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btnHospital01"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="60dp"
+            android:background="@android:color/transparent"
+            android:text="Mais detalhes"
+            android:textColor="#0040FF"
+            android:textSize="10sp" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageView2"
-        app:srcCompat="@android:drawable/sym_def_app_icon"
-        tools:ignore="ContentDescription" />
+        android:layout_below="@+id/idBuscarMedicos"
+        android:layout_marginTop="240dp"
+        app:cardElevation="3dp">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageView1"
-        app:srcCompat="@android:drawable/sym_def_app_icon"
-        tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="114dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/hospital" />
 
-    <Button
-        android:id="@+id/btnHospital06"
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btnHospital05"
-        android:layout_toEndOf="@+id/relativeLayout"
-        android:layout_toRightOf="@+id/relativeLayout"
-        android:text="Posto de Saúde Edson Queiroz \nPosto Saude"
-        android:textAlignment="viewStart"
-        android:textAllCaps="false"
-        android:textSize="10sp"
-        tools:ignore="HardcodedText,SmallSp" />
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="15dp"
+            android:text="Unimed Fortaleza" />
 
-    <Button
-        android:id="@+id/btnHospital05"
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btnHospital04"
-        android:layout_toEndOf="@+id/relativeLayout"
-        android:layout_toRightOf="@+id/relativeLayout"
-        android:text="Pronto Atendimento Aldeota \nPronto Atendimento"
-        android:textAlignment="viewStart"
-        android:textAllCaps="false"
-        android:textSize="10sp"
-        tools:ignore="HardcodedText,SmallSp" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="35dp"
+            android:text="Av. Santos Sumont, 949"
+            android:textSize="10sp" />
 
-    <Button
-        android:id="@+id/btnHospital04"
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView3"
-        android:layout_toEndOf="@+id/relativeLayout"
-        android:layout_toRightOf="@+id/relativeLayout"
-        android:text="Hospital Gonzaga Mota \nMaternidade"
-        android:textAlignment="viewStart"
-        android:textAllCaps="false"
-        android:textSize="10sp"
-        tools:ignore="HardcodedText,SmallSp" />
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="50dp"
+            android:text="(85) 3471-2376"
+            android:textSize="10sp" />
 
-    <Button
-        android:id="@+id/btnHospital03"
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView2"
-        android:layout_toEndOf="@+id/relativeLayout"
-        android:layout_toRightOf="@+id/relativeLayout"
-        android:text="Hospital da Criança \nInfantil"
-        android:textAlignment="viewStart"
-        android:textAllCaps="false"
-        android:textSize="10sp"
-        tools:ignore="HardcodedText,SmallSp" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="60dp"
+            android:background="@android:color/transparent"
+            android:text="Mais detalhes"
+            android:textColor="#0040FF"
+            android:textSize="10sp" />
 
-    <Button
-        android:id="@+id/btnHospital02"
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
-        android:text="Hospital do Montese \nPronto Socorro"
-        android:textAlignment="viewStart"
-        android:textAllCaps="false"
-        android:textSize="10sp"
-        tools:ignore="HardcodedText,SmallSp"
-        android:layout_below="@+id/imageView1"
-        android:layout_toRightOf="@+id/relativeLayout"
-        android:layout_toEndOf="@+id/relativeLayout" />
-
-    <Button
-        android:id="@+id/btnHospital01"
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView1"
-        android:layout_toEndOf="@+id/relativeLayout"
-        android:layout_toLeftOf="@+id/ratingBar2"
-        android:layout_toRightOf="@+id/relativeLayout"
-        android:text="Hospital da Messejana \nPronto Socorro"
-        android:textAlignment="textStart"
-        android:textAllCaps="false"
-        android:textSize="10sp"
-        tools:ignore="HardcodedText,RtlHardcoded,SmallSp" />
-
-    <RatingBar
-        android:id="@+id/ratingBar3"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/btnHospital03"
-        android:numStars="1" />
-
-    <RatingBar
-        android:id="@+id/ratingBar6"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/ratingBar5"
-        android:numStars="1" />
-
-    <RatingBar
-        android:id="@+id/ratingBar5"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/ratingBar3"
-        android:numStars="1" />
-
-    <RatingBar
-        android:id="@+id/ratingBar4"
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:numStars="1"
-        android:layout_alignTop="@+id/btnHospital01"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <RatingBar
-        android:id="@+id/ratingBar8"
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:numStars="1"
-        android:layout_below="@+id/btnHospital01"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <RatingBar
-        android:id="@+id/ratingBar1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:numStars="1"
-        android:layout_below="@+id/textView"
-        android:layout_toRightOf="@+id/ratingBar18"
-        android:layout_toEndOf="@+id/ratingBar18" />
+    </android.support.v7.widget.CardView>
 
 
 </RelativeLayout>

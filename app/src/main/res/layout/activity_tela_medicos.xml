@@ -11,249 +11,180 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.androidc22.socialmedic.TelaMedicos">
 
-    <RatingBar
-        android:id="@+id/ratingBar18"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_above="@+id/btnMedico03"
-        android:layout_below="@+id/btnHospital03"
-        android:layout_toEndOf="@+id/btnMedico03"
-        android:layout_toRightOf="@+id/btnMedico03"
-        android:numStars="1" />
-
     <SearchView
         android:id="@+id/idBuscarMedicos"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/ratingBar1"
-        android:layout_alignEnd="@+id/ratingBar1"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:background="#fff" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/idBuscarMedicos"
-        android:layout_marginEnd="47dp"
-        android:layout_marginRight="47dp"
-        android:layout_marginTop="24dp"
-        android:layout_toLeftOf="@+id/ratingBar2"
-        android:layout_toStartOf="@+id/ratingBar2"
-        android:text="@string/m_dicos"
-        android:textSize="20sp"
-        tools:text="Medicos"
-        tools:ignore="UnknownIdInLayout" />
+        android:layout_marginTop="19dp"
+        app:cardElevation="3dp">
 
-    <RelativeLayout
-        android:id="@+id/relativeLayout"
-        android:layout_width="48dp"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="26dp"
-        android:layout_alignBottom="@+id/relativeLayout2">
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="15dp"
+            android:text="Pedro Nepomuceno" />
 
-    </RelativeLayout>
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="35dp"
+            android:text="Obstetra"
+            android:textSize="10sp" />
 
-    <RelativeLayout
-        android:id="@+id/relativeLayout2"
-        android:layout_width="400dp"
-        android:layout_height="500dp"
-        android:layout_alignEnd="@+id/ratingBar18"
-        android:layout_alignParentBottom="true"
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="50dp"
+            android:text="(85) 3471-2376"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btnMedico01"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="60dp"
+            android:background="@android:color/transparent"
+            android:text="Mais detalhes"
+            android:textColor="#0040FF"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/doctor" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/ratingBar18"
-        android:layout_marginBottom="10dp">
+        android:layout_below="@+id/idBuscarMedicos"
+        android:layout_marginTop="130dp"
+        app:cardElevation="3dp">
 
-    </RelativeLayout>
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="15dp"
+            android:text="Pedro Nepomuceno" />
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="35dp"
+            android:text="Obstetra"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="50dp"
+            android:text="(85) 3471-2376"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btnMedico01"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="60dp"
+            android:background="@android:color/transparent"
+            android:text="Mais detalhes"
+            android:textColor="#0040FF"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/doctor" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignTop="@+id/relativeLayout"
-        app:srcCompat="@android:drawable/sym_def_app_icon"
-        tools:ignore="ContentDescription" />
+        android:layout_below="@+id/idBuscarMedicos"
+        android:layout_marginTop="240dp"
+        app:cardElevation="3dp">
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageView5"
-        app:srcCompat="@android:drawable/sym_def_app_icon"
-        tools:ignore="ContentDescription" />
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="15dp"
+            android:text="Pedro Nepomuceno" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageView7"
-        app:srcCompat="@android:drawable/sym_def_app_icon"
-        tools:ignore="ContentDescription" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="35dp"
+            android:text="Obstetra"
+            android:textSize="10sp" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageView3"
-        app:srcCompat="@android:drawable/sym_def_app_icon"
-        android:contentDescription=""
-        tools:ignore="ContentDescription" />
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="50dp"
+            android:text="(85) 3471-2376"
+            android:textSize="10sp" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageView2"
-        app:srcCompat="@android:drawable/sym_def_app_icon"
-        tools:ignore="ContentDescription" />
+        <Button
+            android:id="@+id/btnMedico01"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="60dp"
+            android:background="@android:color/transparent"
+            android:text="Mais detalhes"
+            android:textColor="#0040FF"
+            android:textSize="10sp" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageView1"
-        app:srcCompat="@android:drawable/sym_def_app_icon"
-        tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/doctor" />
 
-    <Button
-        android:id="@+id/btnHospital06"
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView5"
-        android:layout_toEndOf="@+id/relativeLayout"
-        android:layout_toRightOf="@+id/relativeLayout"
-        android:text="Ciclana Lima Vieira \nNutricionista"
-        android:textAlignment="viewStart"
-        android:textAllCaps="false"
-        android:textSize="10sp"
-        tools:ignore="HardcodedText,SmallSp" />
-
-    <Button
-        android:id="@+id/btnHospital05"
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btnHospital04"
-        android:layout_toEndOf="@+id/relativeLayout"
-        android:layout_toRightOf="@+id/relativeLayout"
-        android:text="Ultrano Moreira de Souza \nClinico Geral"
-        android:textAlignment="viewStart"
-        android:textAllCaps="false"
-        android:textSize="10sp"
-        tools:ignore="HardcodedText,SmallSp" />
-
-    <Button
-        android:id="@+id/btnHospital04"
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView3"
-        android:layout_toEndOf="@+id/relativeLayout"
-        android:layout_toRightOf="@+id/relativeLayout"
-        android:text="Fulano Souza Moura \nPsicologo"
-        android:textAlignment="viewStart"
-        android:textAllCaps="false"
-        android:textSize="10sp"
-        tools:ignore="HardcodedText,SmallSp" />
-
-    <Button
-        android:id="@+id/btnMedico03"
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView2"
-        android:layout_toEndOf="@+id/relativeLayout"
-        android:layout_toRightOf="@+id/relativeLayout"
-        android:text="Ciclano Alves Ferreira \nPediatra"
-        android:textAlignment="viewStart"
-        android:textAllCaps="false"
-        android:textSize="10sp"
-        tools:ignore="HardcodedText,SmallSp" />
-
-    <Button
-        android:id="@+id/btnHospital02"
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1"
-        android:layout_toEndOf="@+id/relativeLayout"
-        android:layout_toRightOf="@+id/relativeLayout"
-        android:text="Beltrano da Silva \nOrtopedista"
-        android:textAlignment="viewStart"
-        android:textAllCaps="false"
-        android:textSize="10sp"
-        tools:ignore="HardcodedText,SmallSp" />
-
-    <Button
-        android:id="@+id/btnHospital03"
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView1"
-        android:layout_toEndOf="@+id/relativeLayout"
-        android:layout_toLeftOf="@+id/ratingBar2"
-        android:layout_toRightOf="@+id/relativeLayout"
-        android:text="Fulano Silveira Mendes \nClinico Geral"
-        android:textAlignment="textStart"
-        android:textAllCaps="false"
-        android:textSize="10sp"
-        tools:ignore="HardcodedText,RtlHardcoded,SmallSp,UnknownIdInLayout" />
-
-    <RatingBar
-        android:id="@+id/ratingBar3"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:numStars="1"
-        android:layout_below="@+id/ratingBar18"
-        android:layout_toRightOf="@+id/btnHospital04"
-        android:layout_toEndOf="@+id/btnHospital04" />
-
-    <RatingBar
-        android:id="@+id/ratingBar6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:numStars="1"
-        android:layout_below="@+id/btnHospital05"
-        android:layout_toRightOf="@+id/btnHospital06"
-        android:layout_toEndOf="@+id/btnHospital06" />
-
-    <RatingBar
-        android:id="@+id/ratingBar7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btnHospital04"
-        android:layout_toEndOf="@+id/btnHospital06"
-        android:layout_toRightOf="@+id/btnHospital06"
-        android:numStars="1" />
-
-    <RatingBar
-        android:id="@+id/ratingBar4"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:numStars="1"
-        android:layout_above="@+id/btnHospital05"
-        android:layout_toRightOf="@+id/btnHospital05"
-        android:layout_toEndOf="@+id/btnHospital05" />
-
-    <RatingBar
-        android:id="@+id/ratingBar1"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_above="@+id/btnHospital02"
-        android:layout_toRightOf="@+id/btnHospital03"
-        android:numStars="1"
-        android:layout_alignRight="@+id/ratingBar7"
-        android:layout_alignEnd="@+id/ratingBar7"
-        tools:ignore="RtlHardcoded" />
+    </android.support.v7.widget.CardView>
 
 
 </RelativeLayout>

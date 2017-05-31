@@ -1,112 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.androidc22.socialmedic.TelaHospitaisPerfil">
 
-    <RelativeLayout
-        android:layout_width="375dp"
-        android:layout_height="500dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="5dp">
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-5dp"
+        app:srcCompat="@drawable/unimed400" />
 
-        <TextView
-            android:id="@+id/txtNomeHosp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_margin="30dp"
-            android:layout_marginBottom="30dp"
-            android:layout_marginEnd="30dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:text="Nome Hospital"
-            android:textColor="#000"
-            android:textSize="24sp"
-            tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView9"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="19dp"
+        android:text="Unimed Fortaleza"
+        android:textSize="20sp" />
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            app:srcCompat="@mipmap/ic_launcher"
-            tools:ignore="ContentDescription"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView3"
+        android:layout_margin="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Mussum Ipsum, cacilds vidis litro abertis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Sapien in monti palavris qui num significa nadis i pareci latim. Viva Forevis aptent taciti sociosqu ad litora torquent. "
+        android:textSize="14sp" />
 
-        <TextView
-            android:id="@+id/txtHospCat"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/txtNomeHosp"
-            android:layout_alignStart="@+id/txtNomeHosp"
-            android:layout_below="@+id/txtNomeHosp"
-            android:layout_marginTop="-20dp"
-            android:text="Especialidade"
-            tools:ignore="HardcodedText" />
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:numStars="5"
+        android:rating="5"
+        android:stepSize="30" />
 
-        <RatingBar
-            android:id="@+id/HospAval"
-            style="@style/Widget.AppCompat.RatingBar.Indicator"
-            android:layout_width="180dp"
-            android:layout_height="35dp"
-            android:layout_marginTop="12dp"
-            android:layout_below="@+id/txtHospCat"
-            android:layout_alignLeft="@+id/txtHospCat"
-            android:layout_alignStart="@+id/txtHospCat" />
-
-        <TextView
-            android:id="@+id/IDDescricao"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/imageView2"
-            android:layout_marginLeft="17dp"
-            android:layout_marginStart="17dp"
-            android:layout_marginTop="30dp"
-            android:text="Sobre"
-            android:textColor="#000"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/IDDescricao"
-            android:layout_alignStart="@+id/IDDescricao"
-            android:layout_below="@+id/IDDescricao"
-            android:layout_marginTop="23dp"
-            android:text="TextView"
-            tools:text="Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou Euzis! Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Suco de cevadiss deixa as pessoas mais interessantiss. Cevadis im ampola pa arma uma pindureta." />
-
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="54dp"
-            android:layout_alignParentBottom="true"
-            android:layout_alignLeft="@+id/textView3"
-            android:layout_alignStart="@+id/textView3"
-            android:id="@+id/textInputLayout2">
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Deixe seu comentário." />
-        </android.support.design.widget.TextInputLayout>
-
-        <TextView
-            android:id="@+id/ComentariosID"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/textInputLayout2"
-            android:layout_alignLeft="@+id/textInputLayout2"
-            android:layout_alignStart="@+id/textInputLayout2"
-            android:text="Comentários" />
-    </RelativeLayout>
-</android.support.constraint.ConstraintLayout>
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView6"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignRight="@+id/textView6"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/ratingBar2"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="Deixe seu comentário!"
+        android:inputType="textMultiLine" />
+</RelativeLayout>

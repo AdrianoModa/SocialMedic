@@ -21,7 +21,7 @@ public class TelaMedicos extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_medicos);
 
-        btnMedico01 = (Button) findViewById(R.id.btnHospital03);
+        btnMedico01 = (Button) findViewById(R.id.btnMedico01);
         btnMedico01.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -29,57 +29,6 @@ public class TelaMedicos extends AppCompatActivity{
                 startActivity(itTelaMedicoPerfil);
             }
         });
-
-        btnMedico02 = (Button) findViewById(R.id.btnHospital02);
-        btnMedico02.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
-                Intent itTelaMedicoPerfil = new Intent(TelaMedicos.this, TelaMedicosPerfil.class);
-                startActivity(itTelaMedicoPerfil);
-            }
-        });
-
-        btnMedico03 = (Button) findViewById(R.id.btnMedico03);
-        btnMedico03.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
-                Intent itTelaMedicoPerfil = new Intent(TelaMedicos.this, TelaMedicosPerfil.class);
-                startActivity(itTelaMedicoPerfil);
-            }
-        });
-
-        btnMedico04 = (Button) findViewById(R.id.btnHospital04);
-        btnMedico04.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
-                Intent itTelaMedicoPerfil = new Intent(TelaMedicos.this, TelaMedicosPerfil.class);
-                startActivity(itTelaMedicoPerfil);
-            }
-        });
-
-        btnMedico05 = (Button) findViewById(R.id.btnHospital05);
-        btnMedico05.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
-                Intent itTelaMedicoPerfil = new Intent(TelaMedicos.this, TelaMedicosPerfil.class);
-                startActivity(itTelaMedicoPerfil);
-            }
-        });
-
-        btnMedico06 = (Button) findViewById(R.id.btnHospital06);
-        btnMedico06.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
-                Intent itTelaMedicoPerfil = new Intent(TelaMedicos.this, TelaMedicosPerfil.class);
-                startActivity(itTelaMedicoPerfil);
-            }
-        });
-
-
-        // Maikon coloquei o nome dos botoes de btnMedicos01 até o 06 pra ficar padronizado
-
-
-        //Toast.makeText(this, "Tela Médicos OK!", Toast.LENGTH_LONG).show();
 
     }
 

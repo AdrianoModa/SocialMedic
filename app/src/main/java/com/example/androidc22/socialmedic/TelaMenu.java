@@ -29,7 +29,7 @@ public class TelaMenu extends AppCompatActivity {
             }
         });
 
-        bFavoritos = (Button) findViewById(R.id.btnFavoritos);
+        bFavoritos = (Button) findViewById(R.id.btnfavoritos);
         bFavoritos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,21 +38,12 @@ public class TelaMenu extends AppCompatActivity {
             }
         });
 
-        bHospitais = (Button) findViewById(R.id.btnHopitais);
+        bHospitais = (Button) findViewById(R.id.btnHospitais);
         bHospitais.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent itTelaHopitais = new Intent(TelaMenu.this, TelaHospitais.class);
                 startActivity(itTelaHopitais);
-            }
-        });
-
-        bAvaliacao = (Button) findViewById(R.id.btnAvalicao);
-        bAvaliacao.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent itTelaAvaliacao = new Intent(TelaMenu.this, TelaAvaliacao.class);
-                startActivity(itTelaAvaliacao);
             }
         });
 
